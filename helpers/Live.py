@@ -57,7 +57,7 @@ def load_game():
         _systemNumber=_rand*_rate
        
         _userAnswer=selection
-        if _userAnswer<_interval[0] and _userAnswer>_interval[1] :
+        if _userAnswer<_interval[0] or _userAnswer>_interval[1] :
             print (f"WRONG!!! the answer is : {_systemNumber} USD")
         else:
              print (f"nice!!!!")
