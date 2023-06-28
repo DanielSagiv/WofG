@@ -39,7 +39,7 @@ def load_game():
         print (f"you have to guess {level*2} numbers")
         _user_list=games.MemoryGame.get_list_from_user()
         games.MemoryGame.compare(_user_list,_systen_list)
-        
+    #sagiv
     
     if selection==2:
         print ("now playing "+game_b)
