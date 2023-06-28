@@ -1,8 +1,8 @@
 
-import helpers.Live
+#import helpers.Live
 
 
-helpers.Live.welcome("sagiv")
-helpers.Live.load_game()
-
+#helpers.Live.welcome("sagiv")
+#helpers.Live.load_game()
+print ("SAGIV DANIEL")
 
